@@ -59,13 +59,11 @@ Key features include:
 
 ```
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_survival_analysis.ipynb
+│ ├── 01_data preparation, defining escope and consolidating data.ipynb
+│ ├── 02_machine_learning_modeling.ipynb
 │ └── 03_churn_modeling.ipynb
 ├── data/
 │ └── raw/processed/
-├── sql/
-│ └── data_extraction.sql
 ├── README.md
 └── requirements.txt
 ```
