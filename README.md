@@ -58,12 +58,12 @@ Key features include:
 ## 📁 Folder Structure
 
 ```
-├── notebooks/
-│ ├── 01_data preparation, defining escope and consolidating data.ipynb
-│ ├── 02_machine_learning_modeling.ipynb
-│ └── 03_churn_modeling.ipynb
-├── data/
-│ └── raw/processed/
+├──
+│ ├── 01_data preparation.ipynb
+│ ├── 02_model_development.ipynb
+│ └── 03_explaining_model_features.ipynb
+├── processed_data/
+│ └── clients_info.csv
 ├── README.md
 └── requirements.txt
 ```
