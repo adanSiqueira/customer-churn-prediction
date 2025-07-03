@@ -42,7 +42,7 @@ Key features include:
 | Churn Definition   | Recency logic & Kaplan-Meier survival modeling            |
 | Exploratory Analysis | Seaborn, Matplotlib, descriptive statistics              |
 | Survival Analysis  | Kaplan-Meier Estimator (lifelines)                       |
-| Modeling (optional) | Logistic Regression, XGBoost, or custom churn scorers    |
+| Modeling (optional) | XGBoost                                                  |
 | Evaluation         | ROC-AUC, Confusion Matrix, Precision-Recall              |
 
 ---
