@@ -60,7 +60,7 @@ Key features include:
 ├──
 │ ├── 01_data preparation.ipynb
 │ ├── 02_model_development.ipynb
-│ └── 03_explaining_model_features.ipynb
+│ └── 03_model_interpretation.ipynb
 ├── processed_data/
 │ └── clients_info.csv
 ├── README.md
