@@ -4,7 +4,6 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-black?logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualizations-orange?logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-EDA-blue?logo=seaborn)
-![Lifelines](https://img.shields.io/badge/Lifelines-Survival_Analysis-darkgreen?logo=lifelines)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-yellowgreen?logo=scikit-learn)
 
 Predicting when a customer is likely to stop buying is one of the most critical insights for any subscription-based or transactional business. This project uses real-world eCommerce data to develop machine learning models capable of identifying churn risk — helping companies take action before losing valuable clients.
