@@ -65,7 +65,7 @@ Key features include:
 │ └── clients_info.csv
 ├── model
 │ └── churn_model.pkl
-├── app.py
+├── app.py                       -> Streamlit interface as model's deploy
 ├── README.md
 └── requirements.txt
 ```
