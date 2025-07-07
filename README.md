@@ -58,11 +58,14 @@ Key features include:
 
 ```
 ├──
-│ ├── 01_data preparation.ipynb
-│ ├── 02_model_development.ipynb
-│ └── 03_model_interpretation.ipynb
+│ ├── 01_data preparation.ipynb     -> extraction from BigQuery, Feature Engineering and Dataset Consolidationg
+│ ├── 02_model_development.ipynb    -> XGBoost training, parameters optimzation and validation
+│ └── 03_model_interpretation.ipynb -> Interpreting model's results, Feature Imporance and SHAP
 ├── processed_data/
 │ └── clients_info.csv
+├── model
+│ └── churn_model.pkl
+├── app.py
 ├── README.md
 └── requirements.txt
 ```
@@ -102,9 +105,10 @@ This project includes a web application built using [Streamlit](https://streamli
 
    ```bash
    http://localhost:8501
-   
 
-### ⚙️ App Features (Technical Overview)
+---
+
+## App Features (Technical Overview)
 
 - 🧠 **Model Deployment**: Integrates a production-ready XGBoost classification model for churn prediction
 - 🧾 **Manual Data Input**: Accepts user-defined inputs including `age`, `gender`, `number_of_orders`, and `total_spent`
@@ -113,4 +117,3 @@ This project includes a web application built using [Streamlit](https://streamli
 - 🧠 **Model Explainability**: Integrates **SHAP (SHapley Additive Explanations)** to generate global and local interpretability visualizations
 - 📊 **Visual Insights**: Includes force plots and summary plots to showcase feature impact on predictions
 - 🚀 **End-to-End Pipeline**: Demonstrates the full ML lifecycle — from data preprocessing to model inference and explainability — in a single interactive interface
-
