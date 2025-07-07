@@ -6,14 +6,14 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-EDA-blue?logo=seaborn)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-yellowgreen?logo=scikit-learn)
 
-Predicting when a customer is likely to stop buying is one of the most critical insights for any subscription-based or transactional business. This project uses real-world eCommerce data to develop machine learning models capable of identifying churn risk — helping companies take action before losing valuable clients.
+Predicting when a customer is likely to stop buying is one of the most critical insights for any subscription-based or transactional business. This project uses real-world eCommerce data to develop a machine learning model capable of identifying churn risk — helping company to take action before losing valuable clients.
 
 ---
 
 ## 🚀 Project Overview
 
 **Goal:**  
-Build a machine learning pipeline to predict customer churn and uncover retention insights based on behavioral data from the [TheLook eCommerce dataset](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce).
+Build a machine learning model to predict customer churn and uncover retention insights based on behavioral data from the [TheLook eCommerce dataset](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce).
 
 **Business Impact:**  
 By identifying customers likely to churn, marketing teams can implement re-engagement strategies and loyalty campaigns, increasing **Customer Lifetime Value (CLV)** and **Revenue Retention**.
