@@ -79,6 +79,38 @@ Key features include:
 
 ---
 
-## 📌 Final Note
+## Local Deployment with Streamlit
 
-This project bridges real business problems with practical data science solutions. By identifying and addressing churn, companies can save millions in lost revenue and build stronger relationships with their customer base.
+This project includes a web application built using [Streamlit](https://streamlit.io/), allowing you to interact with the churn prediction model directly from your browser.
+
+### ▶️ How to Run Locally
+
+1. **Install Dependencies**  
+   Make sure you have Python installed (version 3.8 or higher). Then, install the required packages with:
+
+   ```bash
+   pip install -r requirements.txt
+
+2. **Run the App**  
+   In the root directory of the project, run:
+
+   ```bash
+   streamlit run app.py
+
+3. **Access the app**  
+  After executing the command above, Streamlit will automatically start a local server and display a URL in your terminal, such as:
+
+   ```bash
+   http://localhost:8501
+   
+
+### ⚙️ App Features (Technical Overview)
+
+- 🧠 **Model Deployment**: Integrates a production-ready XGBoost classification model for churn prediction
+- 🧾 **Manual Data Input**: Accepts user-defined inputs including `age`, `gender`, `number_of_orders`, and `total_spent`
+- 🧮 **Dynamic Feature Engineering**: Automatically computes `average_ticket` as a derived feature (`total_spent / number_of_orders`)
+- 📈 **Churn Inference**: Outputs binary churn prediction (`0` = active, `1` = churn) in real time
+- 🧠 **Model Explainability**: Integrates **SHAP (SHapley Additive Explanations)** to generate global and local interpretability visualizations
+- 📊 **Visual Insights**: Includes force plots and summary plots to showcase feature impact on predictions
+- 🚀 **End-to-End Pipeline**: Demonstrates the full ML lifecycle — from data preprocessing to model inference and explainability — in a single interactive interface
+
